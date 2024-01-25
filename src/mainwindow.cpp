@@ -24,7 +24,7 @@ MainWindow::MainWindow(QWidget* parent) :
     mInteractor->Initialize(); // 인터랙터 초기화
 
     // 배경색 설정
-    mRenderer->SetBackground(1, 0, 0); // 렌더러의 배경색을 빨간색으로 설정
+    mRenderer->SetBackground(0, 0, 1); // 렌더러의 배경색을 보라색으로 설정
 
     // UI 연결 설정
     QObject::connect(ui->drawSphere_button, &QPushButton::clicked,
